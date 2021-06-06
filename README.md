@@ -1,4 +1,5 @@
 # R2Gen
+This is clone for https://github.com/cuhksz-nlp/R2Gen to add dataloader to padchest dataset
 
 This is the implementation of [Generating Radiology Reports via Memory-driven Transformer](https://arxiv.org/pdf/2010.16056.pdf) at EMNLP-2020.
 
