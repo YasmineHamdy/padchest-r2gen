@@ -1,29 +1,12 @@
 # R2Gen
 This is clone for https://github.com/cuhksz-nlp/R2Gen to add dataloader to padchest dataset
 
-This is the implementation of [Generating Radiology Reports via Memory-driven Transformer](https://arxiv.org/pdf/2010.16056.pdf) at EMNLP-2020.
-
-## Citations
-
-If you use or extend our work, please cite our paper at EMNLP-2020.
-```
-@inproceedings{chen-emnlp-2020-r2gen,
-    title = "Generating Radiology Reports via Memory-driven Transformer",
-    author = "Chen, Zhihong and
-      Song, Yan  and
-      Chang, Tsung-Hui and
-      Wan, Xiang",
-    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2020",
-}
-```
-
 ## Requirements
 
-- `torch==1.5.1`
-- `torchvision==0.6.1`
+- `torch==1.8.1`
+- `torchvision==0.9.1`
 - `opencv-python==4.4.0.42`
+- `torchtext===0.9.1`
 
 
 ## Download R2Gen
@@ -36,6 +19,8 @@ For `IU X-Ray`, you can download the dataset from [here](https://drive.google.co
 
 For `MIMIC-CXR`, you can download the dataset from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing) and then put the files in `data/mimic_cxr`.
 
+For 'PadChest' you can request download from https://bimcv.cipf.es/bimcv-projects/padchest/
+
 ## Run on IU X-Ray
 
 Run `bash run_iu_xray.sh` to train a model on the IU X-Ray data.
@@ -43,3 +28,7 @@ Run `bash run_iu_xray.sh` to train a model on the IU X-Ray data.
 ## Run on MIMIC-CXR
 
 Run `bash run_mimic_cxr.sh` to train a model on the MIMIC-CXR data.
+
+## Run on PadChest
+
+Run `bash run_padchest.sh` to train a model on the MIMIC-CXR data.
