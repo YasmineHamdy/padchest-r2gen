@@ -1,0 +1,12 @@
+python main.py \
+--image_dir data/padchest/images/ \
+--ann_path data/padchest/PADCHEST_chest_x_ray_images_labels_160K_01.02.19.csv \
+--dataset_name padchest \
+--max_seq_length 150 \
+--threshold 3 \
+--batch_size 16 \
+--epochs 60 \
+--save_dir results/padchest \
+--step_size 1 \
+--gamma 0.1 \
+--seed 456789
