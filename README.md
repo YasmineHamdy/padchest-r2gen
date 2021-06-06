@@ -31,4 +31,4 @@ Run `bash run_mimic_cxr.sh` to train a model on the MIMIC-CXR data.
 
 ## Run on PadChest
 
-Run `bash run_padchest.sh` to train a model on the MIMIC-CXR data.
+Run `bash run_padchest.sh` to train a model on the PadChest data.
